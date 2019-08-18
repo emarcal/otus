@@ -1,0 +1,3 @@
+#Force www:
+RewriteEngine on
+RewriteRule ^(.*)$ public/$1 [L]
